@@ -1,0 +1,22 @@
+/* Base images */
+img {
+  max-width: 100%; /* responsive scaling */
+  height: auto;
+  display: block; /* prevent inline spacing issues */
+  margin: 0 auto; /* center if in a block */
+  border-radius: 4px; /* optional: rounded corners */
+}
+
+/* Container for image + text side by side */
+.img-text {
+  display: flex;
+  align-items: flex-start; /* aligns top edges */
+  gap: 16px; /* space between image and text */
+  margin: 1em 0; /* breathing space */
+}
+
+/* Special case for smaller images */
+.small-img {
+  width: 500px;
+  max-width: 100%; /* responsive */
+}
