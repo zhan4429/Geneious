@@ -1,9 +1,9 @@
 /* Base images */
 body {
-  /* Use max-width to allow the body to shrink on smaller screens */
   max-width: 800px;
   margin: 0 auto;
 }
+
 img {
   max-width: 100%; /* responsive scaling */
   height: auto;
@@ -24,4 +24,10 @@ img {
 .small-img {
   width: 500px;
   max-width: 100%; /* responsive */
+}
+
+pre {
+  white-space: pre-wrap;     /* Allows text to wrap */
+  word-break: break-all;    /* Breaks even long words/strings */
+  overflow-x: auto;         /* Adds a scrollbar if still needed */
 }
