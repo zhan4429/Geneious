@@ -2,6 +2,8 @@
 body {
   max-width: 800px;
   margin: 0 auto;
+  font-size: 1.25rem;
+  text-align: center;
 }
 
 img {
@@ -22,7 +24,7 @@ img {
 
 /* Special case for smaller images */
 .small-img {
-  width: 500px;
+  width: 300px;
   max-width: 100%; /* responsive */
 }
 
