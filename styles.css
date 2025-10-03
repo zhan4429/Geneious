@@ -1,4 +1,8 @@
 /* Base images */
+body {
+  width: 800px;
+  margin: 0 auto;
+}
 img {
   max-width: 100%; /* responsive scaling */
   height: auto;
