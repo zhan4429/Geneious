@@ -6,8 +6,13 @@ body {
   text-align: center;
 }
 
+pre {
+  white-space: pre-wrap;     /* Allows text to wrap */
+  word-break: break-all;    /* Breaks even long words/strings */
+  overflow-x: auto;         /* Adds a scrollbar if still needed */
+}
+
 img {
-  max-width: 100%; /* responsive scaling */
   height: auto;
   display: block; /* prevent inline spacing issues */
   margin: 0 auto; /* center if in a block */
@@ -28,8 +33,7 @@ img {
   max-width: 80%; 
 }
 
-pre {
-  white-space: pre-wrap;     /* Allows text to wrap */
-  word-break: break-all;    /* Breaks even long words/strings */
-  overflow-x: auto;         /* Adds a scrollbar if still needed */
+.small-img {
+  width: 200px;
+  max-width: 80%; 
 }
